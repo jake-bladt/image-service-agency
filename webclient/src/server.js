@@ -3,6 +3,5 @@ const app = express();
 
 const path = require('path');
 
-app.use(express.static('/', path.join(__dirname, 'client')));
-
+app.use('/static', express.static('client'));
 app.listen('0.0.0.0', 3000);
