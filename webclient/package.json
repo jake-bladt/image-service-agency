@@ -1,0 +1,24 @@
+{
+  "name": "imageservice-webclient",
+  "version": "1.0.0",
+  "description": "A cloud-based service for mass image transformations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jake-bladt/image-service-agency.git"
+  },
+  "keywords": [
+    "images",
+    "transformations",
+    "cloud"
+  ],
+  "author": "Jake Bladt <jake@jakebladt.com> (http://jake-bladt.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jake-bladt/image-service-agency/issues"
+  },
+  "homepage": "https://github.com/jake-bladt/image-service-agency#readme"
+}
