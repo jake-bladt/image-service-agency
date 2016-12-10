@@ -2,7 +2,7 @@
   "name": "imageservice-webclient",
   "version": "1.0.0",
   "description": "A cloud-based service for mass image transformations",
-  "main": "server.js",
+  "main": "./src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jake-bladt/image-service-agency/issues"
   },
-  "homepage": "https://github.com/jake-bladt/image-service-agency#readme"
+  "homepage": "https://github.com/jake-bladt/image-service-agency#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
