@@ -7,3 +7,5 @@ RUN apk --no-cache add --virtual build-dependencies curl py-pip \
       && apk del build-dependencies
 RUN ['mkdir', '~/code']
 WORKDIR ~/code
+COPY ./src ~/code
+ENTRYPOINT ["/bin/bash"]
