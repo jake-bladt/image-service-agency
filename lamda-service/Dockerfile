@@ -5,3 +5,5 @@ RUN apk --no-cache add --virtual build-dependencies curl py-pip \
       && pip install virtualenv \
       && pip install 'chalice == 0.5.0' \
       && apk del build-dependencies
+RUN ['mkdir', '~/code']
+WORKDIR ~/code
