@@ -5,6 +5,7 @@ RUN apk --no-cache add --virtual build-dependencies curl py-pip \
       && pip install virtualenv \
       && pip install 'chalice == 0.5.0' \
       && apk del build-dependencies
+RUN apk add --update bash && rm -rf /var/cache/apk/*
 WORKDIR ~/code
 COPY ./src ~/code
 ENTRYPOINT ["/bin/bash"]
