@@ -1,4 +1,4 @@
-FROM python:2.7.12-alpine
+FROM python:2.7.12
 MAINTAINER Jake Bladt <jake@jakebladt.com>
 RUN apk --no-cache add --virtual build-dependencies curl py-pip \
       && curl https://bootstrap.pypa.io/ez_setup.py | python \
