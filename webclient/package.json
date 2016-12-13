@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/jake-bladt/image-service-agency/issues"
   },
-  "homepage": "https://github.com/jake-bladt/image-service-agency#readme",
+  "homepage": "https://github.com/jake-bladt/image-service-agency",
   "dependencies": {
     "express": "^4.14.0"
   }
