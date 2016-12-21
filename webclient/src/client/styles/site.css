@@ -1,0 +1,9 @@
+body {
+  background: url(../images/coffee.jpg) no-repeat top center;
+}
+
+.jumbotron {
+  color: #fff;
+  height: 280px;
+  background: rgba(16, 16, 16, 0)
+}
